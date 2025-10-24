@@ -1,0 +1,111 @@
+{
+  "tri_city": {
+      "name": "Tri-City",
+      "groups": [
+      {
+        "name": "tricity_events_username",
+        "username": "",
+        "url": "",
+        "subscribers": 0,
+        "avg_views": 0,
+        "description": "its tricity_events_username, hello descr"
+      },
+      {
+        "name": "tricity_daily_url",
+        "username": "",
+        "url": "https://t.me/trojmiast0",
+        "subscribers": 0,
+        "avg_views": 0,
+        "description": "hello baby babyy"
+      },
+      {
+        "name": "tricity_news_incorrect",
+        "username": "",
+        "url": "",
+        "subscribers": 0,
+        "avg_views": 0,
+        "description": "sad sadpo kas pok apskpk kapsk k opsakopkopkspdko aok dopakso kospk akdp aksop kdopkas dopkasp kdpoka skdp okasopd kaps koak poka pkaps kopsak opka poka pokaspo kdopsakokaok"
+      }
+    ]
+  },
+  "poznan": {
+      "name": "Poznań",
+      "groups": [
+        {
+          "username": "poznan_events",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "poznan_daily",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "poznan_news",
+          "subscribers": 0,
+          "avg_views": 0
+        }
+      ]
+  },
+    "wroclaw": {
+      "name": "Wrocław",
+      "groups": [
+        {
+          "username": "wroclaw_events",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "wroclaw_daily",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "wroclaw_news",
+          "subscribers": 0,
+          "avg_views": 0
+        }
+      ]
+    },
+  "bialystok": {
+      "name": "Białystok",
+      "groups": [
+        {
+          "username": "bialystok_events",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "bialystok_daily",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "bialystok_news",
+          "subscribers": 0,
+          "avg_views": 0
+        }
+      ]
+  },
+   "szczecin": {
+      "name": "Szczecin",
+      "groups": [
+        {
+          "username": "szczecin_events",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "szczecin_daily",
+          "subscribers": 0,
+          "avg_views": 0
+        },
+        {
+          "username": "szczecin_news",
+          "subscribers": 0,
+          "avg_views": 0
+        }
+      ]
+    }
+}
