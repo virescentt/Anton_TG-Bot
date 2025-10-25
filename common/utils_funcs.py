@@ -18,7 +18,7 @@ async def new_request(message: types.Message, state: FSMContext, user: types.Use
     chats = load_chats()
 
     user_info = (
-        f'i>Запрос от <b>{"🆕 нового " if chats[str(uid)]["manager"] == None else ""}</b>пользователя:\n\n</i>'
+        f'<i>Запрос от <b>{"🆕 нового " if chats[str(uid)]["manager"] == None else ""}</b>пользователя:\n\n</i>'
         f"👤 Имя: {first_name}\n"
         f"🆔 ID: {uid}\n"
         f"📛 Username: @{username}\n"
@@ -62,28 +62,6 @@ async def render_cities_start_pick(event: object, text=START_TEXT):
 
     if isinstance(event, types.CallbackQuery):  
         await event.answer()
-
-
-# async def render_cities_groups_card(message: types.Message, city: str, state: FSMContext):
-#     """Показ карточки выбранного города."""
-#     with open("data/cities.json", "r", encoding="utf-8") as f:
-#         cities = json.load(f)
-
-#     city_data = cities.get(city)
-#     if not city_data:
-#         await message.edit_text("Город не найден.", reply_markup=cities_keyboard())
-#         return
-
-#     text = (
-#             f"🏙️ <b>{city}</b>\n\n"
-#             f"📊 Подписчики: {city_data['subscribers']}\n"
-#             f"👀 Просмотры в месяц: {city_data['views']}\n"
-#             f"📝 {city_data['description']}"
-#         )
-#     print("Город: " + city)
-#     await state.update_data(picked_city=city)
-#     await message.edit_text(text, reply_markup=pricing_keyboard(city))
-
 
 async def msg_is_sent(msg: types.Message, receiver_id=0):
     chats = load_chats()

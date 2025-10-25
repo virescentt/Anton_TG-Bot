@@ -1,7 +1,7 @@
 from aiogram import F, Router, types
 from aiogram.filters import Command
 from common.utils_funcs import render_cities_start_pick
-from config import VIDEO_FILE_ID, VIDEO_PATH
+from config import VIDEO_FILE_ID
 
 start_router = Router()
 

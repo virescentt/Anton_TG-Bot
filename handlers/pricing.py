@@ -11,9 +11,12 @@ async def show_prices(callback: types.CallbackQuery):
     with open('data/prices.json', 'r', encoding='utf-8') as f:
         prices = json.load(f)
     
+    with open('data/cities.json', 'r', encoding='utf-8') as f:
+        cities = json.load(f)
+    
     if city in prices:
         city_prices = prices[city]
-        text = f"💰 <b>Цены для {city}:</b>\n\n"
+        text = f"💰 <b>Цены для {cities[city]['name']}:</b>\n\n"
         
         for service, price in city_prices.items():
             text += f"• {service}: <b>{price}</b>\n"

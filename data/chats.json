@@ -1,0 +1,26 @@
+{
+  "6307193689": {
+    "first_name": "Virescent",
+    "username": "vxrescent",
+    "status": "inactive",
+    "manager": {
+      "id": 6307193689,
+      "first_name": "Virescent",
+      "username": "vxrescent",
+      "status": "inactive"
+    },
+    "chat_history": [
+      {
+        "role": "user",
+        "text": "dasdas",
+        "timestamp": "2025-10-25T16:12:41+00:00"
+      },
+      {
+        "role": "manager",
+        "timestamp": "2025-10-25T16:12:47+00:00",
+        "type": "text",
+        "text": "sadasd"
+      }
+    ]
+  }
+}

@@ -7,6 +7,7 @@ from loader import bot
 public = [
     BotCommand(command="start", description="Начать"),
     BotCommand(command="contact_manager", description="Связаться с менеджером"),
+    BotCommand(command="/end_chat", description="Завершить чат с менеджером"),
 ]
 
 manager = [

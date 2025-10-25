@@ -278,7 +278,6 @@ async def check_my_status(event: object):
     if myid not in MANAGER_IDS:
         return
     
-    print("myid:", myid)
     my_status = "Неактивны"
 
     key = f"{myid}_active"

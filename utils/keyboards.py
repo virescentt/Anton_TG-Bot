@@ -102,7 +102,7 @@ def admin_panel_keyboard():
     return kb.as_markup()
 
 
-# --- Список активных чатов ---
+# --- Список активных/неактивных чатов ---
 # Кнопка на конкретного активного пользователя
 # ...
 # Админка
@@ -111,7 +111,7 @@ def InActive_chats_list_keyboard(users_list):
     for i, (uid, data) in enumerate(users_list, start=1):
         kb.button(text=f"{i}. {data['first_name']}", callback_data=f"view_chat_{uid}")
     kb.button(text="⬅ Назад", callback_data="admin")
-    kb.adjust(1)
+    kb.adjust(3, 1)
     return kb.as_markup()
 
 
